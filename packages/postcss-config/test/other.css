@@ -1,0 +1,10 @@
+
+body {
+  color: var(--black);
+}
+
+@media (--min-small) {
+  body {
+    color: var(--blue);
+  }
+}
