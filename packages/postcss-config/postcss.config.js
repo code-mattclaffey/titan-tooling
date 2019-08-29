@@ -6,7 +6,6 @@ const postcssImport = require('postcss-import');
 
 const stylelint = require('stylelint');
 
-
 module.exports = () => {
   return {
     plugins: [

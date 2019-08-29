@@ -10,12 +10,7 @@
 ```
   const titanPostCSS = require('@titan-tooling/postcss-config');
 
-  module.export = {
-    plugins: [
-      ...titanPostCSS
-    ]
-    // my extra plugins
-  };
+  module.export = titanPostCSS();
 ```
 
 ### Installing with postcss loader
@@ -25,7 +20,7 @@
   loader: 'postcss-loader',
   options: {
     ident: 'postcss',
-    plugins: () => titanPostCSS,
+    plugins: titanPostCSS(),
   },
 },
 ```

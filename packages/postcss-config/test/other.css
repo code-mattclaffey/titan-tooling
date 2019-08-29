@@ -8,3 +8,7 @@ body {
     color: var(--blue);
   }
 }
+
+.hello-world {
+  color: var(--blue);
+}
