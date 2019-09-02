@@ -1,6 +1,6 @@
 {
-  "name": "@titan-tooling/eslint-config",
-  "homepage": "https://github.com/code-mattclaffey/titan-tooling/tree/master/packages/eslint-config",
+  "name": "@titan-tooling/eslint-config-react",
+  "homepage": "https://github.com/code-mattclaffey/titan-tooling/tree/master/packages/eslint-config-react",
   "version": "0.1.2",
   "description": "",
   "main": "/index.js",

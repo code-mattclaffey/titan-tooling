@@ -1,8 +1,9 @@
-
 module.exports = {
-  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "extends": "airbnb-base",
   "rules": {
     "import/prefer-default-export": "off",
+    "react/jsx-filename-extension": "off",
   },
   "globals": {
     "describe": "readonly",
@@ -10,3 +11,4 @@ module.exports = {
     "it": "readonly",
   }
 };
+

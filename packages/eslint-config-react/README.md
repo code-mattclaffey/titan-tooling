@@ -4,11 +4,11 @@
 
 ## Installation
 
-1. yarn add @titan-tooling/eslint-config --dev
+1. yarn add @titan-tooling/eslint-config-react --dev
 2. extend the plugin in the eslintrc file:
 
 ```
 {
-  "extends": "@titan-tooling/eslint-config"
+  "extends": "@titan-tooling/eslint-config-react"
 }
 ```
