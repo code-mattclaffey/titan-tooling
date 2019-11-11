@@ -1,7 +1,7 @@
 {
   "name": "@titan-tooling/postcss-config",
   "homepage": "https://github.com/code-mattclaffey/titan-tooling/tree/master/packages/postcss-config",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "",
   "main": "postcss.config.js",
   "scripts": {
