@@ -5,7 +5,8 @@
   "description": "",
   "main": "postcss.config.js",
   "scripts": {
-    "test": "postcss ./test/style.css -o ./testDist/style.css -m"
+    "test": "postcss ./test/style.css -o ./testDist/style.css -m",
+    "deploy": "npm publish"
   },
   "keywords": [],
   "author": "Matthew Claffey (mattclaffey93@gmail.com)",
