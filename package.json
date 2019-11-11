@@ -1,0 +1,13 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.18.4"
+  },
+  "version": "0.0.0-development",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/code-mattclaffey/titan-tooling.git"
+  }
+}
