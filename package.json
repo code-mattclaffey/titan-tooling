@@ -5,7 +5,9 @@
     "lerna": "^3.18.4"
   },
   "version": "0.0.0-development",
-  "scripts": {},
+  "scripts": {
+    "publish:tags": "lerna publish --skip-npm"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/code-mattclaffey/titan-tooling.git"
