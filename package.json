@@ -2,15 +2,21 @@
   "name": "root",
   "private": true,
   "devDependencies": {
+    "cz-lerna-changelog": "^2.0.2",
     "lerna": "^3.18.4"
   },
   "version": "0.0.0-development",
   "scripts": {
     "publish:tags": "lerna publish --skip-npm",
-    "deploy:npm": "lerna exec --no-bail deploy"
+    "deploy:npm": "lerna exec --no-bail npm run deploy"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/code-mattclaffey/titan-tooling.git"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-lerna-changelog"
+    }
   }
 }
