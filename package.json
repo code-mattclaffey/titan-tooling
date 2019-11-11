@@ -6,7 +6,8 @@
   },
   "version": "0.0.0-development",
   "scripts": {
-    "publish:tags": "lerna publish --skip-npm"
+    "publish:tags": "lerna publish --skip-npm",
+    "deploy:npm": "lerna publish from-git"
   },
   "repository": {
     "type": "git",
