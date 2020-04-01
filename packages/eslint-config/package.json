@@ -1,26 +1,29 @@
 {
-  "name": "@titan-tooling/eslint-config",
-  "homepage": "https://github.com/code-mattclaffey/titan-tooling/tree/master/packages/eslint-config",
-  "version": "0.1.3",
-  "description": "",
-  "main": "/index.js",
-  "scripts": {
-    "test": ""
-  },
-  "keywords": [],
-  "author": "Matthew Claffey (mattclaffey93@gmail.com)",
-  "license": "ISC",
-  "peerDependencies": {
-    "babel-eslint": "^10.0.1",
-    "eslint": "^6.1.0",
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-config-prettier": "^4.2.0",
-    "eslint-loader": "^2.1.2",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jsx-a11y": "^6.2.1",
-    "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-react": "^7.12.4",
-    "prettier-eslint": "^8.8.2"
-  }
+    "name": "@titan-tooling/eslint-config",
+    "homepage": "https://github.com/code-mattclaffey/titan-tooling/tree/master/packages/eslint-config",
+    "version": "0.3.3",
+    "description": "",
+    "main": "/index.js",
+    "scripts": {
+        "test": ""
+    },
+    "keywords": [],
+    "author": "Matthew Claffey (mattclaffey93@gmail.com)",
+    "license": "ISC",
+    "dependencies": {
+        "babel-eslint": "^10.0.1",
+        "eslint": "^6.1.0",
+        "eslint-config-airbnb": "^18.1.0",
+        "eslint-config-airbnb-base": "^14.0.0",
+        "eslint-config-airbnb-typescript": "^7.2.0",
+        "eslint-config-airbnb-typescript-prettier": "^2.1.1",
+        "eslint-config-prettier": "^6.10.1",
+        "eslint-loader": "^3.0.3",
+        "eslint-plugin-import": "^2.18.2",
+        "eslint-plugin-jsx-a11y": "^6.2.1",
+        "eslint-plugin-prettier": "^3.1.0",
+        "eslint-plugin-react": "^7.12.4",
+        "eslint-plugin-react-hooks": "^3.0.0",
+        "prettier-eslint": "^9.0.1"
+    }
 }

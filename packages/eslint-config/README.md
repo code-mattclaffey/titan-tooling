@@ -9,6 +9,24 @@
 
 ```
 {
-  "extends": "@titan-tooling/eslint-config"
+  "extends": "@titan-tooling"
+}
+```
+
+## Other Configs
+
+### Typescript React Config
+
+```
+{
+  "extends": "@titan-tooling/eslint-config/typescript"
+}
+```
+
+### React Config
+
+```
+{
+  "extends": "@titan-tooling/eslint-config/react"
 }
 ```
